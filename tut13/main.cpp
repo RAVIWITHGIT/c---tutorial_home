@@ -69,3 +69,35 @@ using namespace std;
 // }
 
 
+// ------------------ Pointer in Array ------>>>>>>>>>>>>>
+
+// -----------we can store address any data type in below code
+// int main(){
+//     int a = 10;
+//     int* p = &a;
+//     cout<<p<<endl;
+//     cout<<*p<<endl;
+// }
+
+// in Array case we not require & symbol to store array address ,  p varaible not store array address rather store first element address of array
+// so we can access all value using increment of pointer
+
+// int main(){
+//     string arr[4] = {"ravi","shiv","ranu","pooja"};
+//     string* p = arr;
+//     cout<<p<<endl;
+//     cout<<*p<<endl;
+//     cout<<*(p+1)<<endl;
+//     cout<<*(p+2)<<endl;
+//     cout<<*(p+3)<<endl;
+
+// }
+
+
+// int main(){
+//     string arr[4] = {"ravi","shiv","ranu","pooja"};
+//     string* p = arr;
+//     cout<<*(p++)<<endl;
+//     cout<<*(++p)<<endl;
+
+// }
