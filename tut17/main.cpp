@@ -69,15 +69,16 @@ using namespace std;
 
 
 //--------------->>>>>>>>>>>> constant argument 
+// here make const varaible so give error
 
-int a(const int &b){
-    b = 20;
-    return b;
+// int a(const int &bc){
+//     bc = 20;
+//     return bc;
 
-}
+// }
 
-int main(){
-    int first = 10;
-    cout<<a(first)<<endl;
-    cout<<first<<endl;
-}
+// int main(){
+//     int first = 10;
+//     cout<<a(first)<<endl;
+//     cout<<first<<endl;
+// }
